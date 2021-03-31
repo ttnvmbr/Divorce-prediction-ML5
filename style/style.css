@@ -1,0 +1,52 @@
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: pink;
+    font-size: 1em;
+    font-family: cursive;
+}
+
+.header{
+    font-family:'Sacramento', cursive;
+    font-size: 4em;
+    color: #ed145b;
+}
+
+a{
+    color: #ed145b;
+}
+
+a:hover{
+    color: white;
+}
+
+.pink{
+    color: #ed145b;
+}
+
+.form-check-input:checked {
+    background-color: #ed145b;
+    border-color: #ed145b;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #ed145b;
+    border-color: #ed145b;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: #ed145b;
+    border-color: #ed145b;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    background-color: #ed145b;
+    border-color: #ed145b;
+    color: white;
+    box-shadow: none;
+}
