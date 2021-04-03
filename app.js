@@ -9,7 +9,6 @@ let predictionBox = document.getElementById("predictionBox");
 predictionBox.style.display = "none"
 let w = document.body.clientWidth -500
 let h = 400
-// const ignoredColumns = ['Name']
 
 // inladen csv data
 function loadData() {
